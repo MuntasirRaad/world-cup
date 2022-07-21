@@ -1,0 +1,125 @@
+/* Animation */
+@keyframes anime{
+    0%{
+        background-image: linear-gradient(45deg, red, rgba(255, 0, 0, 0.517));
+    }
+    100%{
+        background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.517), red);
+    }
+}
+
+/* Main Style Sheet */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Banner Style  */
+.main-banner{
+    background-color: black;
+    display: flex;
+    width: 1221px;
+    height: 700px;
+    margin: 50px 160px 0px 160px ;
+    border-radius: 25px;
+    padding-left: 82.5px;
+    padding-right: 50px;
+}
+
+/* Banner Info Style  */
+.banner-info{
+    color: white;
+    max-width: 531px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+    
+}
+
+/* Header Style  */
+.main-header{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+/* Banner Paragraph Style  */
+.info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+
+/* Banner Image Style  */
+.banner-img{
+    margin-top: 25px;
+    margin-left: 40px;
+    width: 581px;
+    height: 675.6px;
+}
+
+/* Watch Live Button Style  */
+.watch-live{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, red, rgba(255, 0, 0, 0.307));
+    border-radius: 10px;
+    width: 250px;
+    padding: 16px 25px;
+    animation: anime 1s linear infinite  alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+/* Icon Style  */
+.fa-square-caret-right{
+    padding-left: 8px;
+    transition: transform .5s ease-in-out;
+}
+.button:hover .fa-square-caret-right{
+    transform: translate(10px);
+}
+
+/* Media Queries */
+
+/* For Mobile View  */
+@media screen and (max-width: 688px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-banner{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        width: 85%;
+        height: 472px;
+        margin: 5px 20px 0px 20px;
+        border-radius: 20px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .banner-info{
+        color: white;
+        width: 258px;
+        height: 178px;
+
+        
+    }
+
+
+}
