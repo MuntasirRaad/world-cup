@@ -18,7 +18,7 @@ main{
 
 /* Main Banner Style  */
 .main-banner{
-    background-color: black;
+    background-color: #161616;
     display: flex;
     width: 1221px;
     height: 700px;
@@ -99,12 +99,12 @@ main{
     margin-right: 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr) 3fr;
-    column-gap: 45px;
+    column-gap: 30px;
 }
 
 /* Navigation Style  */
 .navigation{
-    background-color: black;
+    background-color: #161616;
     width: 210px;
     height: 210px;
     display: flex;
@@ -112,7 +112,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding: 30px;
+    padding: 40px;
 }
 
 
@@ -147,8 +147,8 @@ main{
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 25px;
+    column-gap: 25px;
 }
 
 .blog-info{
@@ -180,7 +180,7 @@ main{
     width: 120px;
     height: 40px;
     text-decoration: none;
-    color: black;
+    color: #161616;
     border: 1px solid #e4666665;
     border-radius: 5px;
     font-family: 'Poppins';
@@ -219,3 +219,78 @@ main{
     padding-left: 60px;
     padding-right: 20px;
 }
+
+/* Footer Style  */
+
+.footer{
+    background-color: #161616;
+    color: white;
+    width: 1640px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+/* Footer Header Style  */
+
+.footer-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 27px;
+    width: 1320px;
+}
+
+/* Anchor Style  */
+
+.information{
+    margin-top: 20px;
+}
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    margin-left: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.social-network{
+    margin-top: 60px;
+}
+
+.socnet-link{
+    margin-left: 60px;
+    text-decoration: none;;
+}
+
+.fa-brands{
+    color: #E8E8E8;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-youtube:hover{
+    color: #DD0000;
+}
+
+.fa-twitter:hover{
+    color: #3b5998;
+}
+ 
